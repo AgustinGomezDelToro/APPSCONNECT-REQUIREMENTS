@@ -13,7 +13,7 @@ let config = {
     maxBodyLength: Infinity,
     url: 'https://api.monday.com/v2',
     headers: {
-        'Authorization': 'your-API-token-here',
+        'Authorization': 'your_API_token_here',
         'Content-Type': 'application/json',
     },
     data: data

@@ -2,7 +2,7 @@ const axios = require('axios');
 const moment = require('moment');
 
 // Replace with your actual API token
-const apiToken = 'your-API-token-here';
+const apiToken = 'your_API_token_here';
 const apiUrl = 'https://api.monday.com/v2';
 
 // Setting the headers for the API request

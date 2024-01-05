@@ -2,7 +2,7 @@
 // This script creates a new user in monday.com from an enterprise account
 const axios = require('axios');
 
-const apiToken = 'your-API-token-here'; // Replace with your actual API token
+const apiToken = 'your_API_token_here'; // Replace with your actual API token
 const apiURL = 'https://company.monday.com/scim/v2/Users'; // Make sure to use the correct URL
 
 const userData = {
