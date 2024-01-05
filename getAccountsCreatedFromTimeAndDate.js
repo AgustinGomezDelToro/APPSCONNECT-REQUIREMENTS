@@ -21,7 +21,7 @@ let config = {
 
 // Define start and end dates for the range
 const startDate = moment('2023-01-01T00:00:00Z');
-const endDate = moment('2023-12-31T23:59:59Z');
+const endDate = moment('2024-12-31T23:59:59Z');
 
 axios.request(config)
     .then((response) => {
@@ -32,7 +32,7 @@ axios.request(config)
             return userCreationDate.isBetween(startDate, endDate, undefined, '[]');
         });
 
-        console.log('Users created between January 2023 and December 2023:', filteredUsers);
+        console.log('Users created between the specified dates:', filteredUsers);
     })
     .catch((error) => {
         console.log(error);
